@@ -14,14 +14,15 @@ const Todos = styled.div`
   background-color: #e87fff;
   width: auto;
   height: auto;
+  padding: 10px;
   margin: 10px 10px;
 `;
 function BoxA() {
   return (
     <Frame>
-      <Todos></Todos>
-      <Todos></Todos>
-      <Todos></Todos>
+      <Todos>Weather</Todos>
+      <Todos>TodoA</Todos>
+      <Todos>TodoB</Todos>
     </Frame>
   );
 }

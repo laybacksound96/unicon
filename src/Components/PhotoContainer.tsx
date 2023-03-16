@@ -6,6 +6,10 @@ const Frame = styled.div`
   grid-column: span 2;
 `;
 const Photo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: aquamarine;
   width: 100%;
   margin: 10px 10px;
@@ -14,9 +18,9 @@ const Photo = styled.div`
 function PhotoContainer() {
   return (
     <Frame>
-      <Photo></Photo>
-      <Photo></Photo>
-      <Photo></Photo>
+      <Photo>PhotoA</Photo>
+      <Photo>PhotoB</Photo>
+      <Photo>PhotoC</Photo>
     </Frame>
   );
 }

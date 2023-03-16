@@ -11,12 +11,13 @@ const Todos = styled.div`
   width: auto;
   height: 300px;
   margin: 10px 10px;
+  padding: 10px;
 `;
 function BoxB() {
   return (
     <Frame>
-      <Todos></Todos>
-      <Todos></Todos>
+      <Todos>ContentA</Todos>
+      <Todos>ContentB</Todos>
     </Frame>
   );
 }
